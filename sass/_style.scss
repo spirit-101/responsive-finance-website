@@ -110,7 +110,6 @@
     color: $dark-blue;
     padding-right: rem(30px);
     margin-bottom: rem(45px);
-    font-size: rem(18px);
 
     @include respond(tab-port) {
       font-size: rem(18px);
