@@ -298,7 +298,9 @@
   }
 
   &__img-box {
-    order: -1;
+    @include respond(phone) {
+      order: -1;
+    }
   }
 
   &__img {
